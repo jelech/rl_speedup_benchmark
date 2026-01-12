@@ -1,0 +1,13 @@
+numpy>=1.24.0
+jax[cuda12]>=0.4.0; sys_platform == "linux"
+jax>=0.4.0; sys_platform != "linux"
+cython>=3.0.0
+tqdm
+pandas
+matplotlib
+stable-baselines3
+shimmy>=0.2.1
+torch
+flax
+optax
+gymnasium

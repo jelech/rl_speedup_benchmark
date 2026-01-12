@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.venv
+env/
+venv/
+build/
+dist/
+*.egg-info/
+
+# C/C++
+*.o
+*.obj
+
+# Go
+src/envs/cartpole/go_src/cartpole.h
+
+# Cython generated C files (optional, but good to ignore if you want clean repo)
+src/envs/cartpole/cy_impl.c
+src/envs/boids/cy_impl.c
+
+# IDEs
+.vscode/
+.idea/
+.cursor/
+*.swp
+
+# OS
+.DS_Store
+
+# Benchmark results
+benchmark_result.png
+*.log
